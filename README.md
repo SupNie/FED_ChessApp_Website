@@ -1,4 +1,5 @@
 # FED-assignment-2
+Link page to github: https://supnie.github.io/FED_ChessApp_Website/
 The goal of our project is to create an educational digital literacy platform that teaches online users, mainly students:
 1. How to find reliable information from a Google search,
 2. Teach Google search techniques
