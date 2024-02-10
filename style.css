@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background: url(chess_background-t3.jpg);
+    height: 100vh;
+}
+
+.container
+{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+
+.div
+{
+    display: flex;
+}
+
+ul
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+li
+{
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0;
+}
+
+.box
+{
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+    box-shadow: 2px 2px 5px rgba(2.3,2.5,0.7,1.2);
+}
+
+h1
+{
+    margin: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#move
+{
+    margin: 40px 0px;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: yellowgreen;
+    color: lightblue;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#reset-button
+{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.all-img
+{
+    width: 65px;
+    position: relative;
+    bottom: 5px;
+}
+
+.all-pawn
+{
+    transform: scale(.7);
+}
+
+.authcont
+{
+    width: 100vw;
+}
+
+.author
+{
+    float: right;
+    margin-right: 50px;
+}
+
+@media (max-width: 500px)
+{
+    .box
+    {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .all-img
+    {
+        width: 7vw;
+    }
+
+    #move
+    {
+        margin: 30px 0px;
+        font-size: 20px;
+    }
+
+    #reset-button
+    {
+        font-size: 10px;
+    }
+}
